@@ -1,4 +1,5 @@
 import logging
+import os
 import pandas as pd
 from fuzzywuzzy import process
 from telegram import Update, InputMediaPhoto
@@ -9,7 +10,7 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 logging.basicConfig(format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO)
 
 # ✅ Replace with your Telegram Bot Token
-TOKEN = "5572298787:AAEvie8_2VXsiG4DoBA43rNx9D3pEVG69W4"
+TOKEN = os.getenv("TOKEN")
 
 # ✅ Load book data from Excel
 BOOKS_FILE = "books.xlsx"
