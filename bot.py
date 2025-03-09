@@ -68,7 +68,7 @@ async def handle_message(update: Update, context):
                 InlineKeyboardButton("❓ How to Download", url="https://t.me/StudyRatna_2/42")
             ],
             [  # 2nd row: One button
-                InlineKeyboardButton("📚 Join PrepLibrary", url="https://t.me/PrepLibrary_Discussion")
+                InlineKeyboardButton("📚 Join PrepLibrary", url="https://t.me/+IW7EPyRNa78wMmM9")
             ]
         ]
 
